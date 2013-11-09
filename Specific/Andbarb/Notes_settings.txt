@@ -1,0 +1,61 @@
+==================
+== Joomla setup ==
+==================
+$offline_message = 'ANDARB a unique globally patented connector for securely joining and fastening manufactured components.';
+$sitename = 'ANDBARB';
+$mailfrom = 'admin@andbarb.com';
+$fromname = 'andBarb';
+$MetaDesc = 'ANDARB a unique globally patented connector for securely joining and fastening manufactured components.';
+$MetaKeys = 'andbarb, andbarb.com, SIP, Structural Insulated Panels, building, construction, connector';
+$MetaRights = 'Copyright John Anderson';
+        
+
+================
+== Root files ==
+================
+1. Add BingSiteAuth.xml
+2. Add google8211c79e0c1c6f46.html
+3. change htaccess.txt --> .htaccess
+4. Edit configuration.php so $live_site = 'http://www.andbarb.com';
+
+
+==============
+== Template ==
+==============
+
+Notes
+-----
+1. Protostar used as site template
+2. Added a Container footer section to index.php (see Generic/Protostar)
+3. Custom css for Container footer (see Generic/Protostar)
+4. Add correct favicon file in template root folder (see Protostar sub-folder)
+5. Add background images if required (currently not using)
+
+Details
+-------
+Default                     All
+
+Advanced tab
+------------
+Template Color              #0088cc (light blue)
+Background Color            #4f6f7 (white)
+Logo
+Title                       ANDBARB
+Description
+Google Font for Headings    Yes
+Google Font Name            Open+Sans
+Fluid Layout                Static
+
+Menus assignment tab
+--------------------
+All selected
+
+
+=============
+== Plugins ==
+=============
+
+Captcha - ReCaptcha
+Public Key      6LehbuYSAAAAAPohuEd6tP8oZLboWJmxcyx49YF-
+Private Key     6LehbuYSAAAAABFxiMivkYfrnhdv-hCcg5h9okt3
+Theme           Clean
